@@ -1,11 +1,17 @@
 import React from 'react';
 import '../styles/header.css';
+import illustrationImage from '../assets/images/illustration.svg';
 
 export const Header = () => (
   <header className="header">
-    <h1>Winter Vacation Trips</h1>
-    <p>Enjoy your winter vacations with warmth and amazing sightseeing on the mountains. Enjoy the best experience with us!</p>
-    <button>Let's Go!</button>
+    <div className="header-promo">
+        <h1>Winter Vacation Trips</h1>
+        <p>Enjoy your winter vacations with warmth <br/> and amazing sightseeing on the mountains. <br/> Enjoy the best experience with us!</p>
+        <button>Let's Go!</button>
+    </div>
+    <div className="illustration-img">
+        <img src={illustrationImage} alt="illustration image" />
+    </div>
   </header>
 );
 
