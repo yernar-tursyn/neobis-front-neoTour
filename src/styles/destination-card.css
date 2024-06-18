@@ -1,0 +1,14 @@
+.destination-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .destination-card img {
+    width: 100%;
+    height: auto;
+  }
+  .destination-card h3 {
+    margin: 10px 0;
+  }
+  
