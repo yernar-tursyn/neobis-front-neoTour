@@ -1,7 +1,8 @@
 .destination-card {
     position: relative;
+    height: 282px;
   }
-  
+
   .destination-card img {
     width: 100%;
     height: 290px;
