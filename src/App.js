@@ -8,10 +8,12 @@ import Recommended from './components/Recommended';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Discover />
-      <PopularDestinations />
-      <Recommended />
+        <Header />
+      <div className='container'>
+        <Discover />
+        <PopularDestinations />
+        <Recommended />
+      </div>
     </div>
   );
 }

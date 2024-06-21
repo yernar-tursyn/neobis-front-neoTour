@@ -3,6 +3,7 @@ import '../styles/header.css';
 import illustrationImage from '../assets/images/illustration.svg';
 
 export const Header = () => (
+  <div className='header-container'>
   <header className="header">
     <div className="header-promo">
         <h1>Winter Vacation Trips</h1>
@@ -13,6 +14,7 @@ export const Header = () => (
         <img src={illustrationImage} alt="illustration image" />
     </div>
   </header>
+  </div>
 );
 
 export default Header;

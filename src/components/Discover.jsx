@@ -3,6 +3,9 @@ import '../styles/discover.css';
 
 export const Discover = () => (
   <nav className="discover">
+    <div className="discover-slider">
+      <h3>Discover</h3>
+    </div>
     <ul>
       <li>Popular</li>
       <li>Featured</li>

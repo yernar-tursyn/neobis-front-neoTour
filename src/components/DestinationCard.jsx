@@ -5,8 +5,12 @@ import '../styles/destination-card.css';
 
 const DestinationCard = ({ image, title }) => (
   <div className="destination-card">
-    <img src={image} alt={title} />
-    <h3>{title}</h3>
+    <div className="destination-card-img">
+      <img src={image} alt={title} />
+    </div>
+    <div className="destination-card-title">
+        <h4>{title}</h4>
+    </div>
   </div>
 );
 

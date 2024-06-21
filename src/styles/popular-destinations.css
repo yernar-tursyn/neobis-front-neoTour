@@ -1,6 +1,8 @@
 .popular-destinations {
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 132px;
+    gap: 24px;
+    /* overflow: hidden; */
   }
   

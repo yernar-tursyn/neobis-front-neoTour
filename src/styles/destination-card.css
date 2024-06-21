@@ -1,14 +1,26 @@
 .destination-card {
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  .destination-card img {
-    width: 100%;
-    height: auto;
-  }
-  .destination-card h3 {
-    margin: 10px 0;
+    position: relative;
   }
   
+  .destination-card img {
+    width: 100%;
+    height: 290px;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .destination-card-img {
+    height: 100%;
+  }
+
+  .destination-card-title {
+    position: absolute;
+    background: rgba(136, 136, 136, .5);
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
