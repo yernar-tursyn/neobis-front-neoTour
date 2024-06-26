@@ -12,7 +12,6 @@ const ReservationForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // обработка отправки формы
     console.log({ phoneNumber, comment, peopleCount });
   };
 

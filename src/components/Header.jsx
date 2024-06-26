@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/header.css';
 import illustrationImage from '../assets/images/illustration.svg';
+import { ArrowPromo } from '../assets/icons/svg/ArrowPromo';
+import ArrowLeftIcon from '../assets/icons/svg/ArrowLeftIcon';
+import { ArrowButtons } from './ArrowButtons';
 
 export const Header = () => (
   <div className='header-container'>
@@ -8,7 +11,11 @@ export const Header = () => (
     <div className="header-promo">
         <h1>Winter Vacation Trips</h1>
         <p>Enjoy your winter vacations with warmth <br/> and amazing sightseeing on the mountains. <br/> Enjoy the best experience with us!</p>
-        <button>Let's Go!</button>
+        <div className="lets-link">
+          <h5>Let's Go!</h5>
+          <ArrowPromo/>
+        </div>
+
     </div>
     <div className="illustration-img">
         <img src={illustrationImage} alt="illustration image" />

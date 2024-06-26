@@ -1,8 +1,55 @@
+.discover ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.discover li {
+  padding: 10px;
+  cursor: pointer;
+}
+.discover li:hover {
+  color: #007bff;
+}
+
+.discover-slider {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 30px 0;
+}
+
+.destination-card {
+  position: relative;
+  height: 282px;
+}
+
+.destination-card img {
+  width: 100%;
+  height: 290px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.destination-card-img {
+  height: 100%;
+}
+
+.destination-card-title {
+  position: absolute;
+  background: rgba(136, 136, 136, .5);
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 .popular-destinations {
     display: flex;
     justify-content: space-between;
     margin-bottom: 132px;
     gap: 24px;
-    /* overflow: hidden; */
-  }
-  
+}
