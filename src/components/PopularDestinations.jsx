@@ -6,6 +6,7 @@ import DestinationCard from "./DestinationCard";
 import { ArrowButtons } from "./ArrowButtons";
 import discover_img from '../assets/images/discover.png';
 import '../styles/popular-destinations.css'
+import Tabs from "./Tabs";
 
 
 const PopularDestinations = () => {
@@ -22,19 +23,17 @@ const PopularDestinations = () => {
   return (
     <>
       <nav className="discover">
-        <div className="discover-slider">
-          <img src={discover_img} alt="Discover" />
-          <ArrowButtons onPrevClick={handlePrevClick} onNextClick={handleNextClick} />
-        </div>
-        <ul>
+        
+        {/* <ul>
           <li>Popular</li>
           <li>Featured</li>
           <li>Most Visited</li>
           <li>Europe</li>
           <li>Asia</li>
-        </ul>
+        </ul> */}
+        <Tabs/>
       </nav>
-      <SwiperComponent
+      {/* <SwiperComponent
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;
         }}
@@ -50,7 +49,7 @@ const PopularDestinations = () => {
             />
           </SwiperSlide>
         ))}
-      </SwiperComponent>
+      </SwiperComponent> */}
     </>
   );
 };

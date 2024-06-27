@@ -1,9 +1,8 @@
 .discover ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-around;
   padding: 0;
-  background-color: #f8f8f8;
+  gap: 60px;
 }
 .discover li {
   padding: 10px;
