@@ -1,3 +1,4 @@
+// src/components/Tabs.jsx
 import React, { useRef, useState, useEffect } from 'react';
 import '../styles/tabs.css';
 import DestinationCard from './DestinationCard';
@@ -68,6 +69,7 @@ const Tabs = () => {
                     <DestinationCard
                         image={destination.thumbnail}
                         title={destination.name}
+                        destinationPath={`/destination/${destination.id}`}
                     />
                 </SwiperSlide>
             ))}
