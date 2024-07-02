@@ -1,0 +1,81 @@
+.destination-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+  }
+  
+  .destination-image {
+    width: 100%;
+  }
+  
+  .back-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 9%;
+    left: 33%;
+  }
+
+  .destination-info {
+    margin-top: -180px;
+    background-color: white;
+    border-radius: 48px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 56px 90px 45px;
+    width: -webkit-fill-available;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .location {
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .description, .reviews {
+    margin-bottom: 20px;
+  }
+  
+  .review {
+    margin-bottom: 10px;
+  }
+  
+  .review-author {
+    font-weight: bold;
+  }
+  
+  .reviewer-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .book-button {
+    background-color: #6A4FFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-button:hover {
+    background-color: #5940d1;
+  }
+  

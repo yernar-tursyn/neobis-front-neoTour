@@ -1,11 +1,11 @@
 .destination-card {
     position: relative;
     height: 282px;
+    cursor: pointer;
   }
 
   .destination-card img {
     width: 100%;
-    height: 290px;
     height: 100%;
     border-radius: 20px;
   }

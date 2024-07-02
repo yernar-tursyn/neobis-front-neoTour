@@ -32,7 +32,7 @@ function App() {
 export default function AppWrapper() {
   return (
     <Router>
-      <App />
+      <App/>
     </Router>
   );
 }
